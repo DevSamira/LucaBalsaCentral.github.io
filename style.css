@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --color-text: white;
+    --color-text2: black;
+    --background-color: black;
+    --background-color2: rgb(194, 74, 74);
+    --background-color3: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(217,207,207,1) 56%);
+    --background-image: url(Imagens/unnamed.png);
+    --color-habilities: white;
+}
+.dark-mode:root{
+    --color-text: #fff;
+    --color-text2: #fff;
+    --background-color: #000;
+    --background-color2: #000;
+    --background-color3: #000;
+    --background-image: none;
+    --color-habilities: red;
+}
+body{
+    color: var(--color-text);
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-position-y: bottom;
+}
+.checkbox{
+    font-weight: bold;
+    color:var(--color-text2);
+    text-align: center;
+    margin-top: 50px;
+    background-color: var(--background-color2);
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 110px;
+ 
+}
+input:hover{
+    cursor: pointer;
+}
+.container-geral{
+    background-color: var(--background-color2);
+    border-radius: 3px;
+    width: 900px;
+    margin-left: 17%;
+    box-shadow: 5px 3px 15px 3px #000000;
+}
+figure{
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+.container{
+    padding: 20px;
+    background: none;
+    margin-top: -20px;
+}
+
+.sobre-o-site{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sobre-o-site h2{
+    background: var(--background-color3);
+    width: 854px;
+    color: var(--color-text2);
+    margin-bottom: 12px;
+}
+.sobre-o-site p{
+    color: var(--color-text2);
+    margin-top: 30px;
+    line-height: 50px;
+}
+.sobre-o-site p i{
+    line-height: 35px;
+    color: var(--color-text2);
+    background: var(--background-color3);
+    padding: 5px;
+    border-radius: 3px;
+}
+.sobre-o-site p i b{
+    color: red;
+}
+.secao-de-fotos{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.secao-de-fotos h2{
+    color: var(--color-text2);
+    margin-bottom: 12px;
+    background: var(--background-color3);
+    width: 850px;
+    padding: 2px;
+}
+.secao-de-fotos img{
+    box-shadow: 1px 3px 8px 5px #ffffff;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.secao-de-fotos p{
+    margin-top: 15px;
+}
+.historia{
+    text-align: center;
+    margin-bottom: 25px;
+    background: var(--background-color3);
+    padding: 8px;
+    border-radius: 3px;
+    line-height: 22px;
+    width: 834px;
+}
+.historia h2{
+    color: var(--color-text2);
+    margin-bottom: 12px;
+}
+.historia p{
+    color: var(--color-text2);
+    margin-top: 15px;
+    text-align: left;
+}
+.habilidades{
+    margin-bottom: 25px;
+}
+.habilidades h2{
+    text-align: center;
+    color: var(--color-text2);
+    margin-bottom: 12px;
+    background: var(--background-color3);
+    width: 850px;
+}
+.habilidades ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.habilidades ul li{
+    font-weight: bold;
+    color: var(--color-text);
+    background-color: var(--background-color2);
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 5px 0px 15px 0px #000000;
+}
+
+.skins{
+    margin-bottom: 20px;
+}
+.skins h2{
+    background: var(--background-color3);
+    width: 850px;
+    text-align: center;
+    color: var(--color-text2);
+    margin-bottom: 12px;
+}
+.skins ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.skins ul li{
+    color: var(--color-text2);
+    margin-top: 12px;
+    line-height: 40px;
+}
+strong{
+    background: rgb(245,166,19);
+    background: radial-gradient(circle, rgba(245,166,19,1) 0%, rgba(241,242,26,1) 100%);
+    padding: 5px;
+    border-radius: 3px;
+}
+.skins ul li b{
+    color: var(--color-text2);
+}
+.conheca-o-jogo{
+    height: 50px;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 12px;
+    background-color: rgb(0, 0, 0);
+    width: 1329px;
+    padding: 10px;
+}
+.conheca-o-jogo p{
+    color: var(--color-text);
+    margin-top: 15px;
+}
+.conheca-o-jogo a{
+    color: var(--color-text);
+    text-decoration: none;
+    background-color: rgb(255, 20, 20);
+    padding: 4px;
+    border-radius: 3px;
+}
+
+a:hover{
+    box-shadow: 1px 0px 8px 0px #ffffff;
+}
